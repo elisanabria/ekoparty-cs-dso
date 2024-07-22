@@ -1,6 +1,6 @@
 #Main deployment for application
 
-name: Main Pipeline - CS&DSO
+name: Release Pipeline for vulnerable WebApp - Ekoparty CS&DSO
 
 on:     
   push:
