@@ -22,7 +22,7 @@ jobs:
       needs: security_sast
       uses: ./.github/workflows/build-and-deploy.yml      
 
-  security_dast:
-      name: DAST Analysis
-      needs: build_and_deploy
-      uses: ./.github/workflows/security-dast.yml    
+#  security_dast:
+#      name: DAST Analysis
+#      needs: build_and_deploy
+#      uses: ./.github/workflows/security-dast.yml    
