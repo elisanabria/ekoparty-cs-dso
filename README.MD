@@ -6,5 +6,6 @@ Reporte SAST en Dashboard de Herramienta Snyk
 
 Reporte DAST agregado como Issue utilizando la herramienta OWASP ZAP:
 - URL: https://github.com/elisanabria/ekoparty-cs-dso/issues
-- ![Captura de referencia](results/Screenshot-Issue.png)
+- Captura de referencia:
+![Captura de referencia](results/Screenshot-Issue.png)
 
