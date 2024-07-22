@@ -1,5 +1,6 @@
 name: SNyk SAST Stage
-on: push
+on: 
+   workflow_call:
 jobs:
   security:
     runs-on: ubuntu-latest
