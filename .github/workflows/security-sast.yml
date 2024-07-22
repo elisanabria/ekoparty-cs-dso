@@ -1,4 +1,4 @@
-# Code scanning using Snyk, results deployed to DefectDojo
+# Code scanning using Snyk, results deployed to its Web Dashboard
 
 name: Snyk Security
 
