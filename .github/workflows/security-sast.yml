@@ -2,11 +2,7 @@ name: Snyk SAST Scan
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  workflow_call:
 
 jobs:
   snyk:
