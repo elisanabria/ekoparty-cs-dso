@@ -1,5 +1,4 @@
-#DAST Stage - Post app deployment in Heroku
-
+name: DAST Analysis for WebApp
 on:
   workflow_call:
 
