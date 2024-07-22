@@ -16,4 +16,3 @@ jobs:
           heroku_app_name: "elianasanabria-ekoparty-csdso" 
           heroku_email: "elia_sanabria16@hotmail.com"
           remote_branch: "master"
-          usedocker: true
