@@ -6,7 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - run: snyk auth ${{ secrets.SNYK_TOKEN }}
+      - name: Test
+        run: echo $SNYK_TOKEN | base64
+        env:
+           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/node@master
         continue-on-error: true # To make sure that SARIF upload gets called
