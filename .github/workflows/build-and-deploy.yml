@@ -1,7 +1,6 @@
 name: Deploy Vulnerable Application                                  # workflow name
 
 on:
-  push:
   workflow_call:
   
 jobs:
