@@ -1,4 +1,4 @@
-name: SNyk SAST Stage
+name: Snyk SAST Stage
 on: 
    workflow_call:
 jobs:
