@@ -1,7 +1,6 @@
 #DAST Stage - Post app deployment in Heroku
 
 on:
-  push:
   workflow_call:
 
 jobs:
